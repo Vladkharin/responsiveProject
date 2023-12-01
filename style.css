@@ -426,6 +426,18 @@ h3, h2, h1 {
     display: none;
 }
 
+button:hover, a:hover{
+    color: red;
+}
+
+.flex{
+    display: flex;
+}
+
+.none{
+    display: none;
+}
+
 
 @media (max-width: 320px) {
     .container{
@@ -465,7 +477,6 @@ h3, h2, h1 {
         width: 100%;
         position: fixed;
         top: 0;
-        display: none;
         flex-direction: column;
         gap: 30px;
         padding-top: 20px;
@@ -490,6 +501,7 @@ h3, h2, h1 {
 
     .menu__buttonClose{
         position: absolute;
+        height: 30px;
         right: 15px;
         top: 30px;
     }
